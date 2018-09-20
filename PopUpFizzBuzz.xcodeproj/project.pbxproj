@@ -432,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGW73C56;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = PopUpFizzBuzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGW73C56;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = PopUpFizzBuzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +509,7 @@
 		4B7832432152C0C7006A4851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopUpFizzBuzz.app/PopUpFizzBuzz";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGW73C56;
 				INFOPLIST_FILE = PopUpFizzBuzzUITests/Info.plist;
@@ -526,6 +529,7 @@
 		4B7832442152C0C7006A4851 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopUpFizzBuzz.app/PopUpFizzBuzz";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FPQGW73C56;
 				INFOPLIST_FILE = PopUpFizzBuzzUITests/Info.plist;

@@ -22,8 +22,8 @@ class PopUpFizzBuzzTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+//        let viewController = ViewController()
+//        XCTAssertEqual(viewController.inputNumber("3"), "Fizz")
     }
     
     func testPerformanceExample() {
